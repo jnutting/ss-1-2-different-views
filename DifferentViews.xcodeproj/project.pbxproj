@@ -21,6 +21,11 @@
 		0498D58219502C00004F163F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0498D56419502C00004F163F /* UIKit.framework */; };
 		0498D58A19502C00004F163F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0498D58819502C00004F163F /* InfoPlist.strings */; };
 		0498D58C19502C00004F163F /* DifferentViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498D58B19502C00004F163F /* DifferentViewsTests.m */; };
+		0498D59719502C20004F163F /* TBTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498D59619502C20004F163F /* TBTPerson.m */; };
+		0498D59A19502C46004F163F /* TBTRedPersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498D59919502C46004F163F /* TBTRedPersonView.m */; };
+		0498D59B19502C46004F163F /* TBTRedPersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498D59919502C46004F163F /* TBTRedPersonView.m */; };
+		0498D59E195032A1004F163F /* TBTBluePersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498D59D195032A1004F163F /* TBTBluePersonView.m */; };
+		0498D59F195032A1004F163F /* TBTBluePersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498D59D195032A1004F163F /* TBTBluePersonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		0498D58719502C00004F163F /* DifferentViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DifferentViewsTests-Info.plist"; sourceTree = "<group>"; };
 		0498D58919502C00004F163F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0498D58B19502C00004F163F /* DifferentViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DifferentViewsTests.m; sourceTree = "<group>"; };
+		0498D59519502C20004F163F /* TBTPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBTPerson.h; path = ../../BigMethod/BigMethod/TBTPerson.h; sourceTree = "<group>"; };
+		0498D59619502C20004F163F /* TBTPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBTPerson.m; path = ../../BigMethod/BigMethod/TBTPerson.m; sourceTree = "<group>"; };
+		0498D59819502C46004F163F /* TBTRedPersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBTRedPersonView.h; sourceTree = "<group>"; };
+		0498D59919502C46004F163F /* TBTRedPersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBTRedPersonView.m; sourceTree = "<group>"; };
+		0498D59C195032A1004F163F /* TBTBluePersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBTBluePersonView.h; sourceTree = "<group>"; };
+		0498D59D195032A1004F163F /* TBTBluePersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBTBluePersonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +126,14 @@
 				0498D56F19502C00004F163F /* TBTAppDelegate.h */,
 				0498D57019502C00004F163F /* TBTAppDelegate.m */,
 				0498D57219502C00004F163F /* Main.storyboard */,
+				0498D59519502C20004F163F /* TBTPerson.h */,
+				0498D59619502C20004F163F /* TBTPerson.m */,
 				0498D57519502C00004F163F /* TBTViewController.h */,
 				0498D57619502C00004F163F /* TBTViewController.m */,
+				0498D59819502C46004F163F /* TBTRedPersonView.h */,
+				0498D59919502C46004F163F /* TBTRedPersonView.m */,
+				0498D59C195032A1004F163F /* TBTBluePersonView.h */,
+				0498D59D195032A1004F163F /* TBTBluePersonView.m */,
 				0498D57819502C00004F163F /* Images.xcassets */,
 				0498D56719502C00004F163F /* Supporting Files */,
 			);
@@ -252,7 +269,10 @@
 			files = (
 				0498D56D19502C00004F163F /* main.m in Sources */,
 				0498D57119502C00004F163F /* TBTAppDelegate.m in Sources */,
+				0498D59E195032A1004F163F /* TBTBluePersonView.m in Sources */,
 				0498D57719502C00004F163F /* TBTViewController.m in Sources */,
+				0498D59719502C20004F163F /* TBTPerson.m in Sources */,
+				0498D59A19502C46004F163F /* TBTRedPersonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0498D59B19502C46004F163F /* TBTRedPersonView.m in Sources */,
 				0498D58C19502C00004F163F /* DifferentViewsTests.m in Sources */,
+				0498D59F195032A1004F163F /* TBTBluePersonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
