@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047969A019509DDD0000BD33 /* TBTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479699F19509DDD0000BD33 /* TBTPerson.m */; };
 		0498D56119502C00004F163F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0498D56019502C00004F163F /* Foundation.framework */; };
 		0498D56319502C00004F163F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0498D56219502C00004F163F /* CoreGraphics.framework */; };
 		0498D56519502C00004F163F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0498D56419502C00004F163F /* UIKit.framework */; };
@@ -21,7 +22,6 @@
 		0498D58219502C00004F163F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0498D56419502C00004F163F /* UIKit.framework */; };
 		0498D58A19502C00004F163F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0498D58819502C00004F163F /* InfoPlist.strings */; };
 		0498D58C19502C00004F163F /* DifferentViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498D58B19502C00004F163F /* DifferentViewsTests.m */; };
-		0498D59719502C20004F163F /* TBTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498D59619502C20004F163F /* TBTPerson.m */; };
 		0498D59A19502C46004F163F /* TBTRedPersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498D59919502C46004F163F /* TBTRedPersonView.m */; };
 		0498D59B19502C46004F163F /* TBTRedPersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498D59919502C46004F163F /* TBTRedPersonView.m */; };
 		0498D59E195032A1004F163F /* TBTBluePersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498D59D195032A1004F163F /* TBTBluePersonView.m */; };
@@ -39,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0479699E19509DDD0000BD33 /* TBTPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBTPerson.h; sourceTree = "<group>"; };
+		0479699F19509DDD0000BD33 /* TBTPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBTPerson.m; sourceTree = "<group>"; };
 		0498D55D19502C00004F163F /* DifferentViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DifferentViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0498D56019502C00004F163F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0498D56219502C00004F163F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,8 +60,6 @@
 		0498D58719502C00004F163F /* DifferentViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DifferentViewsTests-Info.plist"; sourceTree = "<group>"; };
 		0498D58919502C00004F163F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0498D58B19502C00004F163F /* DifferentViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DifferentViewsTests.m; sourceTree = "<group>"; };
-		0498D59519502C20004F163F /* TBTPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBTPerson.h; path = ../../BigMethod/BigMethod/TBTPerson.h; sourceTree = "<group>"; };
-		0498D59619502C20004F163F /* TBTPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBTPerson.m; path = ../../BigMethod/BigMethod/TBTPerson.m; sourceTree = "<group>"; };
 		0498D59819502C46004F163F /* TBTRedPersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBTRedPersonView.h; sourceTree = "<group>"; };
 		0498D59919502C46004F163F /* TBTRedPersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBTRedPersonView.m; sourceTree = "<group>"; };
 		0498D59C195032A1004F163F /* TBTBluePersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBTBluePersonView.h; sourceTree = "<group>"; };
@@ -126,8 +126,8 @@
 				0498D56F19502C00004F163F /* TBTAppDelegate.h */,
 				0498D57019502C00004F163F /* TBTAppDelegate.m */,
 				0498D57219502C00004F163F /* Main.storyboard */,
-				0498D59519502C20004F163F /* TBTPerson.h */,
-				0498D59619502C20004F163F /* TBTPerson.m */,
+				0479699E19509DDD0000BD33 /* TBTPerson.h */,
+				0479699F19509DDD0000BD33 /* TBTPerson.m */,
 				0498D57519502C00004F163F /* TBTViewController.h */,
 				0498D57619502C00004F163F /* TBTViewController.m */,
 				0498D59819502C46004F163F /* TBTRedPersonView.h */,
@@ -269,9 +269,9 @@
 			files = (
 				0498D56D19502C00004F163F /* main.m in Sources */,
 				0498D57119502C00004F163F /* TBTAppDelegate.m in Sources */,
+				047969A019509DDD0000BD33 /* TBTPerson.m in Sources */,
 				0498D59E195032A1004F163F /* TBTBluePersonView.m in Sources */,
 				0498D57719502C00004F163F /* TBTViewController.m in Sources */,
-				0498D59719502C20004F163F /* TBTPerson.m in Sources */,
 				0498D59A19502C46004F163F /* TBTRedPersonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +481,7 @@
 				0498D59119502C00004F163F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0498D59219502C00004F163F /* Build configuration list for PBXNativeTarget "DifferentViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +490,7 @@
 				0498D59419502C00004F163F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
