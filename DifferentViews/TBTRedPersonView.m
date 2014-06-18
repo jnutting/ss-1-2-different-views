@@ -39,7 +39,8 @@
                                      NSFontAttributeName : [UIFont boldSystemFontOfSize:36],
                                      NSForegroundColorAttributeName : [UIColor blackColor]
                                      };
-    [personInfo drawInRect:self.bounds
+    CGRect textRect = CGRectInset(self.bounds, 10, 10);
+    [personInfo drawInRect:textRect
             withAttributes:fontAttributes];
 }
 
