@@ -1,4 +1,4 @@
-# Big Methods
+# Different Views
 
 This is a demonstration app built for a seminar. Don't expect it to do anything
 useful on its own!
