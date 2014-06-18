@@ -10,8 +10,9 @@
 
 @class TBTPerson;
 
-@interface TBTRedPersonView : UIView
+#import "TBTColorPersonView.h"
 
-@property (strong, nonatomic) TBTPerson *person;
+@interface TBTRedPersonView : TBTColorPersonView
+
 
 @end

@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TBTColorPersonView.h"
 
 @class TBTPerson;
 
-@interface TBTBluePersonView : UIView
-
-@property (strong, nonatomic) TBTPerson *person;
+@interface TBTBluePersonView : TBTColorPersonView
 
 @end
